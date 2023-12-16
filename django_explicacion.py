@@ -31,3 +31,6 @@ específicas para un proyecto en particular, sin afectar al sistema global de Py
 #pip list : muestra las biblotecas instaladas en el entorno virtual o GLOBAL.
 
 #Como crear un entorno virtual? (entorno aislado del global)
+
+
+### me quede en el min 47 de la clase.
