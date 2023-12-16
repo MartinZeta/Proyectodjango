@@ -34,3 +34,5 @@ específicas para un proyecto en particular, sin afectar al sistema global de Py
 
 
 ### me quede en el min 47 de la clase.
+
+#git log --oneline: nos sirve para saber a donde esta apuntando (HEAD-CABEZA), si es a la rama principal, a la de desarrollo y al origin que seria github
