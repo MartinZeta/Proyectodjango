@@ -82,32 +82,4 @@ y una carpeta con los archivos iniciales necesarios para iniciar con configuraci
 """Nos crea y corre el servidor en internet"""
 
 #Crtl + C: 
-<<<<<<< HEAD
 """para salir del server y usar la terminal"""
-
-
-#--------------------------------------------------------------------------------
-
-### Entornos virtuales ###
-
-"""Un entorno virtual en Python es una herramienta 
-que te permite crear un espacio aislado donde puedes instalar 
-y manejar las dependencias (bibliotecas y versiones de Python) 
-específicas para un proyecto en particular, sin afectar al sistema global de Python."""
-
-#pip list : muestra las biblotecas instaladas en el entorno virtual o GLOBAL.
-
-#Como crear un entorno virtual? (entorno aislado del global)
-
-#- git branch: no dice cuantas ramas tenemos creadas.
-
-#- git branch dev(rama nueva desarrollo): crea una rama nueva o, en este caso, un entorno virtual.
-
-#- git checkout dev(rama nueva desarrollo): nos mueve a la rama que creamos.
-
-#- git log --oneline: nos sirve para saber a donde esta apuntando (HEAD-CABEZA), si es a la rama principal, a la de desarrollo y al origin que seria github
-
-#- git merge dev: Une las ramas, de desarrollo con la principal para guardar todos los cambios en la principal, antes que nada hay que moverse a la rama princi.
-=======
-"""para salir del server y usar la terminal"""
->>>>>>> dev
