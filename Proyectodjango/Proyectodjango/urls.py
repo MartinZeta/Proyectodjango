@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 #se importa el modulo saludo para usarlo.
-from Proyectodjango.view import saludo, dia_de_hoy,miNombreEs, ingresar_nombre, fecha_hora, tirar_dado
+#from Proyectodjango.view import saludo, dia_de_hoy,miNombreEs, ingresar_nombre, fecha_hora, tirar_dado
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -30,5 +30,5 @@ urlpatterns = [
     #path('miNombreEs/<nombre>',miNombreEs),
     #path('fecha_hora/', fecha_hora),
     #path('tirar_dado/', tirar_dado),
-    path("", include("core.urls"))
+    path("", include("core.urls")),
 ]
