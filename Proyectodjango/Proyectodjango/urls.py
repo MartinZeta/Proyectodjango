@@ -14,19 +14,21 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 #se importa el modulo saludo para usarlo.
-from Proyectodjango.view import saludo, dia_de_hoy,miNombreEs, ingresar_nombre, fecha_hora, tirar_dado
+#from Proyectodjango.view import saludo, dia_de_hoy,miNombreEs, ingresar_nombre, fecha_hora, tirar_dado
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     #Se crea el path en la url para que envie la info
     #el parametro que toma en comillas es el nombre que tendria la url
     #el 2° parametro que toma es la funcion creada en view que fue importada
-    path('saludo/', saludo),
-    path('ingresar_nombre/', ingresar_nombre),
-    path('diaDeHoy', dia_de_hoy),
-    path('miNombreEs/<nombre>',miNombreEs),
-    path('fecha_hora/', fecha_hora),
-    path('tirar_dado/', tirar_dado),
+    
+    #path('saludo/', saludo),
+    #path('ingresar_nombre/', ingresar_nombre),
+    #path('diaDeHoy', dia_de_hoy),
+    #path('miNombreEs/<nombre>',miNombreEs),
+    #path('fecha_hora/', fecha_hora),
+    #path('tirar_dado/', tirar_dado),
+    path("", include("core.urls")),
 ]
