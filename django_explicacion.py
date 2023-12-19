@@ -9,6 +9,7 @@
 
 #- git merge dev: Une las ramas, de desarrollo con la principal para guardar todos los cambios en la principal, antes que nada hay que moverse a la rama princi.
 
+#- git pull
 """
 
 ### Entornos virtuales ###
